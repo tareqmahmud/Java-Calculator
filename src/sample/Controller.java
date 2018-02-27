@@ -4,6 +4,7 @@ import com.udojava.evalex.Expression;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 
 
@@ -18,7 +19,7 @@ public class Controller implements Initializable {
     }
 
     @FXML
-    private TextField displayText;
+    private Label displayText;
 
     @FXML
     private Double result;
